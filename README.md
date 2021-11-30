@@ -5,4 +5,4 @@ ELDO - I started this organization to share knowledge with eachothers. Technolog
 * [Web-Page](https://shahzaibfardeen.github.io/EnLift_Development_Organization-/index.html)
 
 ### The Way The Web Page Look
-![Web_Page_Image](Images/ELDO.png.png)
+![Web_Page_Image](Images/ELDO.png)
