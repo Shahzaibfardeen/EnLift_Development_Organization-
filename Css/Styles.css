@@ -1,0 +1,225 @@
+body{
+  font-family: "Montserrat";
+  /* text-align: center; */
+}
+
+p{
+  color: #8f8f8f;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-black";
+  /* font-weight: bold; */
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  font-size: 18px;
+  line-height: 45px;
+  text-decoration: none;
+  color: #15080E;
+  /* margin: 5px 10px; */
+}
+
+
+*{
+  /* font-family: 'Noto Sans JP', sans-serif; */
+  font-family: Proxima, sans-serif;
+  /* font-weight: 500; */
+}
+
+#title{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+
+/* To Make All The Elements Middle & Have Them Equal */
+/* Top Right Bottom left */
+.container-fluid{
+  padding: 1% 8% 1%;
+}
+
+/* Color Sections Of The Body */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar Are The & Logo & Brand Name Of The Web Page*/
+.navbar{
+  padding-bottom: 1rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Nav Items Are The Menus Bar */
+.nav-item{
+  padding: 3px 9px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* <!-- Main Page of the body element--> */
+
+.link-color{
+  color: #FF5E55;
+}
+.link-color:hover{
+  color: #D05A19;
+  /* font-size: 21px; */
+  /* transition: 0.05s; */
+  /* font-weight: bold; */
+}
+
+.bannerName{
+  font-family: 'Times New Roman', Times, serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+
+.link{
+  text-decoration: none;
+}
+
+/* Main Div Panel */
+.div-middle{
+  margin: 3% 10%;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right{
+  float: right;
+  margin-right: 10px;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 60px;
+}
+
+.font17 {
+  font-size: 17px;
+}
+
+
+/* Footer Session */
+footer{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 5px;
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px 0px;
+  line-height: 2;
+  padding: 0px 0;
+}
+
+/* CTA Session Last Download Buttons */
+/* Its An ID */
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 25%;
+}
+
+/* Media Query */
+/* Mobile Friendly Test (Website For Chechking Ur Website Is Responsive Or Not)*/
+@media (max-width: 1200px) {
+#title {
+  text-align: center;
+}
+
+.title-image {
+  position: static;
+  transform: rotate(0);
+  }
+}
+
+/* Last Footer Session */
+i{
+  color: #15080E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+i:hover {
+  color: #EAF6F6;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.85rem;
+  padding: 20px 0;
+}
+
+p {
+  line-height: 2;
+}
+
+.Contact-message {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container{
+  background-color: #ff4c68;
+  padding: 50px 0 20px;
+}
+
+.contact-me{
+    padding: 20px ;
+}
+
+/* For Buttons Color & Hovering */
+.button {
+  background: #ff4c68;
+  background-image: -webkit-linear-gradient(top, #ff4c68, #F54040);
+  background-image: -moz-linear-gradient(top, ##ff4c68, #F54040);
+  background-image: -ms-linear-gradient(top, ##ff4c68, #F54040);
+  background-image: -o-linear-gradient(top, ##ff4c68, #F54040);
+  background-image: linear-gradient(top bottom, ##ff4c68, #F54040);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #FF1F77;
+  background-image: -webkit-linear-gradient(top, #FF1F77, #ff4c68);
+  background-image: -moz-linear-gradient(top, #FF1F77, #ff4c68);
+  background-image: -ms-linear-gradient(top, #FF1F77, #ff4c68);
+  background-image: -o-linear-gradient(top, #FF1F77, #ff4c68);
+  background-image: linear-gradient(top bottom, #FF1F77, #ff4c68);
+  text-decoration: none;
+}
